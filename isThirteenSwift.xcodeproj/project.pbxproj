@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61B00D171CFF4A3000B39408 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61B00D151CFF4A3000B39408 /* Nimble.framework */; };
+		61B00D181CFF4A3000B39408 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61B00D161CFF4A3000B39408 /* Quick.framework */; };
+		61E30E151CFF473D00F6F7E6 /* isThirteenSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 61E30E141CFF473D00F6F7E6 /* isThirteenSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61E30E1C1CFF473D00F6F7E6 /* isThirteenSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61E30E111CFF473C00F6F7E6 /* isThirteenSwift.framework */; };
+		61E30E211CFF473D00F6F7E6 /* isThirteenSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E30E201CFF473D00F6F7E6 /* isThirteenSwiftTests.swift */; };
+		61E30E2C1CFF475B00F6F7E6 /* isThirteen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E30E2B1CFF475B00F6F7E6 /* isThirteen.swift */; };
+		61E30E2E1CFF48EE00F6F7E6 /* Consts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E30E2D1CFF48EE00F6F7E6 /* Consts.swift */; };
+		CB8DDC28CB745A762B2372E0 /* Pods_isThirteenSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94AC3F188851EA0253E828D4 /* Pods_isThirteenSwiftTests.framework */; };
+		F6676D51F36B95D3639FFA6E /* Pods_isThirteenSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DA221BC4B8D2336C0BF0915 /* Pods_isThirteenSwift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61E30E1D1CFF473D00F6F7E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61E30E081CFF473C00F6F7E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61E30E101CFF473C00F6F7E6;
+			remoteInfo = isThirteenSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25639B83E32E8D1E79267DAA /* Pods-isThirteenSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-isThirteenSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-isThirteenSwift/Pods-isThirteenSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		5DA221BC4B8D2336C0BF0915 /* Pods_isThirteenSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_isThirteenSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61B00D151CFF4A3000B39408 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "Pods/../build/Release-iphoneos/Nimble/Nimble.framework"; sourceTree = "<group>"; };
+		61B00D161CFF4A3000B39408 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "Pods/../build/Release-iphoneos/Quick/Quick.framework"; sourceTree = "<group>"; };
+		61E30E111CFF473C00F6F7E6 /* isThirteenSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = isThirteenSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61E30E141CFF473D00F6F7E6 /* isThirteenSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = isThirteenSwift.h; sourceTree = "<group>"; };
+		61E30E161CFF473D00F6F7E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61E30E1B1CFF473D00F6F7E6 /* isThirteenSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = isThirteenSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61E30E201CFF473D00F6F7E6 /* isThirteenSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isThirteenSwiftTests.swift; sourceTree = "<group>"; };
+		61E30E221CFF473D00F6F7E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61E30E2B1CFF475B00F6F7E6 /* isThirteen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = isThirteen.swift; sourceTree = "<group>"; };
+		61E30E2D1CFF48EE00F6F7E6 /* Consts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Consts.swift; sourceTree = "<group>"; };
+		65B11BE0E064EF6FA9826D0B /* Pods-isThirteenSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-isThirteenSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-isThirteenSwiftTests/Pods-isThirteenSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		94AC3F188851EA0253E828D4 /* Pods_isThirteenSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_isThirteenSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D125963659BB993ECB522123 /* Pods-isThirteenSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-isThirteenSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-isThirteenSwiftTests/Pods-isThirteenSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA2DC9618CDCF84EF4957C6A /* Pods-isThirteenSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-isThirteenSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-isThirteenSwift/Pods-isThirteenSwift.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61E30E0D1CFF473C00F6F7E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6676D51F36B95D3639FFA6E /* Pods_isThirteenSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E30E181CFF473D00F6F7E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61B00D171CFF4A3000B39408 /* Nimble.framework in Frameworks */,
+				61B00D181CFF4A3000B39408 /* Quick.framework in Frameworks */,
+				61E30E1C1CFF473D00F6F7E6 /* isThirteenSwift.framework in Frameworks */,
+				CB8DDC28CB745A762B2372E0 /* Pods_isThirteenSwiftTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F9B8F7B6129A96693CD1932 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25639B83E32E8D1E79267DAA /* Pods-isThirteenSwift.debug.xcconfig */,
+				FA2DC9618CDCF84EF4957C6A /* Pods-isThirteenSwift.release.xcconfig */,
+				D125963659BB993ECB522123 /* Pods-isThirteenSwiftTests.debug.xcconfig */,
+				65B11BE0E064EF6FA9826D0B /* Pods-isThirteenSwiftTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		61E30E071CFF473C00F6F7E6 = {
+			isa = PBXGroup;
+			children = (
+				61E30E131CFF473D00F6F7E6 /* isThirteenSwift */,
+				61E30E1F1CFF473D00F6F7E6 /* isThirteenSwiftTests */,
+				61E30E121CFF473C00F6F7E6 /* Products */,
+				7D08E8743E91AA6D18D8A139 /* Frameworks */,
+				0F9B8F7B6129A96693CD1932 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		61E30E121CFF473C00F6F7E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61E30E111CFF473C00F6F7E6 /* isThirteenSwift.framework */,
+				61E30E1B1CFF473D00F6F7E6 /* isThirteenSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61E30E131CFF473D00F6F7E6 /* isThirteenSwift */ = {
+			isa = PBXGroup;
+			children = (
+				61E30E141CFF473D00F6F7E6 /* isThirteenSwift.h */,
+				61E30E2B1CFF475B00F6F7E6 /* isThirteen.swift */,
+				61E30E2D1CFF48EE00F6F7E6 /* Consts.swift */,
+				61E30E161CFF473D00F6F7E6 /* Info.plist */,
+			);
+			path = isThirteenSwift;
+			sourceTree = "<group>";
+		};
+		61E30E1F1CFF473D00F6F7E6 /* isThirteenSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				61E30E201CFF473D00F6F7E6 /* isThirteenSwiftTests.swift */,
+				61E30E221CFF473D00F6F7E6 /* Info.plist */,
+			);
+			path = isThirteenSwiftTests;
+			sourceTree = "<group>";
+		};
+		7D08E8743E91AA6D18D8A139 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61B00D151CFF4A3000B39408 /* Nimble.framework */,
+				61B00D161CFF4A3000B39408 /* Quick.framework */,
+				5DA221BC4B8D2336C0BF0915 /* Pods_isThirteenSwift.framework */,
+				94AC3F188851EA0253E828D4 /* Pods_isThirteenSwiftTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		61E30E0E1CFF473C00F6F7E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61E30E151CFF473D00F6F7E6 /* isThirteenSwift.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		61E30E101CFF473C00F6F7E6 /* isThirteenSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61E30E251CFF473D00F6F7E6 /* Build configuration list for PBXNativeTarget "isThirteenSwift" */;
+			buildPhases = (
+				98AF14770475AC8374CF3C90 /* 📦 Check Pods Manifest.lock */,
+				61E30E0C1CFF473C00F6F7E6 /* Sources */,
+				61E30E0D1CFF473C00F6F7E6 /* Frameworks */,
+				61E30E0E1CFF473C00F6F7E6 /* Headers */,
+				61E30E0F1CFF473C00F6F7E6 /* Resources */,
+				01F3338E27C000C01A447482 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = isThirteenSwift;
+			productName = isThirteenSwift;
+			productReference = 61E30E111CFF473C00F6F7E6 /* isThirteenSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		61E30E1A1CFF473D00F6F7E6 /* isThirteenSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61E30E281CFF473D00F6F7E6 /* Build configuration list for PBXNativeTarget "isThirteenSwiftTests" */;
+			buildPhases = (
+				3E7648580A9CF56A5F4821A4 /* 📦 Check Pods Manifest.lock */,
+				61E30E171CFF473D00F6F7E6 /* Sources */,
+				61E30E181CFF473D00F6F7E6 /* Frameworks */,
+				61E30E191CFF473D00F6F7E6 /* Resources */,
+				7BF850092B341EA373C30329 /* 📦 Embed Pods Frameworks */,
+				3441DD562E474E3470A84886 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61E30E1E1CFF473D00F6F7E6 /* PBXTargetDependency */,
+			);
+			name = isThirteenSwiftTests;
+			productName = isThirteenSwiftTests;
+			productReference = 61E30E1B1CFF473D00F6F7E6 /* isThirteenSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61E30E081CFF473C00F6F7E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Nicolas Charvoz";
+				TargetAttributes = {
+					61E30E101CFF473C00F6F7E6 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					61E30E1A1CFF473D00F6F7E6 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 61E30E0B1CFF473C00F6F7E6 /* Build configuration list for PBXProject "isThirteenSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 61E30E071CFF473C00F6F7E6;
+			productRefGroup = 61E30E121CFF473C00F6F7E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61E30E101CFF473C00F6F7E6 /* isThirteenSwift */,
+				61E30E1A1CFF473D00F6F7E6 /* isThirteenSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61E30E0F1CFF473C00F6F7E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E30E191CFF473D00F6F7E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01F3338E27C000C01A447482 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-isThirteenSwift/Pods-isThirteenSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3441DD562E474E3470A84886 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-isThirteenSwiftTests/Pods-isThirteenSwiftTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E7648580A9CF56A5F4821A4 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7BF850092B341EA373C30329 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-isThirteenSwiftTests/Pods-isThirteenSwiftTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98AF14770475AC8374CF3C90 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61E30E0C1CFF473C00F6F7E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61E30E2C1CFF475B00F6F7E6 /* isThirteen.swift in Sources */,
+				61E30E2E1CFF48EE00F6F7E6 /* Consts.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E30E171CFF473D00F6F7E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61E30E211CFF473D00F6F7E6 /* isThirteenSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61E30E1E1CFF473D00F6F7E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61E30E101CFF473C00F6F7E6 /* isThirteenSwift */;
+			targetProxy = 61E30E1D1CFF473D00F6F7E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		61E30E231CFF473D00F6F7E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		61E30E241CFF473D00F6F7E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		61E30E261CFF473D00F6F7E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25639B83E32E8D1E79267DAA /* Pods-isThirteenSwift.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = isThirteenSwift/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charvoz.isThirteenSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		61E30E271CFF473D00F6F7E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA2DC9618CDCF84EF4957C6A /* Pods-isThirteenSwift.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = isThirteenSwift/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charvoz.isThirteenSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		61E30E291CFF473D00F6F7E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D125963659BB993ECB522123 /* Pods-isThirteenSwiftTests.debug.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Release-iphoneos/Nimble",
+					"$(PROJECT_DIR)/build/Release-iphoneos/Quick",
+				);
+				INFOPLIST_FILE = isThirteenSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charvoz.isThirteenSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		61E30E2A1CFF473D00F6F7E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65B11BE0E064EF6FA9826D0B /* Pods-isThirteenSwiftTests.release.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Release-iphoneos/Nimble",
+					"$(PROJECT_DIR)/build/Release-iphoneos/Quick",
+				);
+				INFOPLIST_FILE = isThirteenSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charvoz.isThirteenSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61E30E0B1CFF473C00F6F7E6 /* Build configuration list for PBXProject "isThirteenSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61E30E231CFF473D00F6F7E6 /* Debug */,
+				61E30E241CFF473D00F6F7E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61E30E251CFF473D00F6F7E6 /* Build configuration list for PBXNativeTarget "isThirteenSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61E30E261CFF473D00F6F7E6 /* Debug */,
+				61E30E271CFF473D00F6F7E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61E30E281CFF473D00F6F7E6 /* Build configuration list for PBXNativeTarget "isThirteenSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61E30E291CFF473D00F6F7E6 /* Debug */,
+				61E30E2A1CFF473D00F6F7E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61E30E081CFF473C00F6F7E6 /* Project object */;
+}
